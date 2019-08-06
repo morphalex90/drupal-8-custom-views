@@ -2,19 +2,6 @@
 
 use Drupal\Core\Template\Attribute;
 
-/**
- * @file
- * Theme for TARDIS views.
- */
-// function custom_views_preprocess_views_view_custom_boostrap_grid(&$variables) {
-//     mail('piero.nanni@gmail.com','Porn test 1','test');
-//     die();
-//   // View options set by user.
-//   $options = $variables['view']->style_plugin->options;
-//   // Update options for twig.
-//   $variables['options'] = $options;
-// }
-
 function custom_views_preprocess_views_custom_bootstrap_grid( &$variables, $hook, $info ) {
 
     $view = $variables['view'];
@@ -34,5 +21,4 @@ function custom_views_preprocess_views_custom_bootstrap_grid( &$variables, $hook
             $variables['rows'][$id]['attributes']->addClass($row_class);
         }
     }
-
-  }
+}
