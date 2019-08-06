@@ -1,3 +1,3 @@
 # Drupal 8 - Custom Views
 
-Module name must be custom-views
+Module name must be custom_views
