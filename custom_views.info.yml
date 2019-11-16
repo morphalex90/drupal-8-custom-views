@@ -5,7 +5,6 @@ package: Piero Nanni
 
 version: '8.x-1.0'
 core: '8.x'
-project: 'custom_views'
 
 dependencies:
   - drupal:views
